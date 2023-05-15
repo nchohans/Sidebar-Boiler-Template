@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Linktree Clone</title>
+  <!-- Include Tailwind CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <!-- Inline custom styles -->
+  <style>
+    .sidebar {
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 100;
+}
+
+.sidebar-header {
+  padding: 10px;
+  background-color: #ccc;
+}
+
+.sidebar-content {
+  padding: 10px;
+}
+
+.sidebar-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-list li {
+  margin-bottom: 10px;
+}
+
+.sidebar-list a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+    
+  </style>
+</head>
+
+<body class="bg-gray-100"><div class="sidebar">
+  <div class="sidebar-header">
+    <h1>Sidebar</h1>
+  </div>
+  <div class="sidebar-content">
+    <ul class="sidebar-list">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+</div>
+
+</body>
+
+</html>
